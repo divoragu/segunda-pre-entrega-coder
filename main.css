@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    font-family: 'Radio Canada', sans-serif;
+    background-image: url(./public/img-background.jpg);
+    background-repeat: round;    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+header div img{
+    max-width: 50px;
+    max-height: 50px;
+    
+}   
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-menu ul li:hover{
+    background-color: beige;
+    transition-duration: .7s;
+    transform: scale(1.2);
+}
+.nav-menu ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+.main-sector{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "article"
+    "section"
+    "section1"
+    "aside"
+    ;
+}
+.sect{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.sect-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+}
+.sect-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.sect div h3{
+    margin: 20px;
+}
+.sect img{
+    width: 250px;
+    height: 250px;
+}
+.sect1{
+    grid-area: section1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.img-g{
+    display: none;
+} 
+.sect-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+}
+.sect-t h3, p{
+    padding: 20px;
+
+}
+.sect1 img{
+    width: 300px;
+    height: 200px;
+}
+.artic{
+    grid-area: article;
+    display: flex;
+    padding-top: 10px;
+    margin: 20px;
+}
+.artic div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    font-size: 27px;
+}
+.artic div h3{
+    font-size: 40px;
+    display: flex;
+    margin: 20px;
+
+}
+.artic img{
+    display: flex;
+    justify-content: end;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 10px;
+}
+.asi{
+    grid-area: aside;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.asi h4{
+    margin: 10px;
+}
+.asi img{
+    max-width: 200px;
+    max-height: 200px;
+}
+footer{
+    padding-bottom: 20px;
+}
+footer div nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    list-style-type: none;
+}
+footer div nav ul li img{
+    display: flex;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+footer div nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+footer div nav ul li:hover{
+    background-color: bisque;
+    transition-duration: .7s;
+    transform: scale(1.2);
+    border: 0.5px solid rgb(0, 0, 0);
+}
+footer div h6{
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
