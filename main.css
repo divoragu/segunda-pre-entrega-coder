@@ -224,9 +224,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item1 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item1 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item1:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item2{
     grid-area: item-2;
@@ -236,8 +245,17 @@ footer div h6{
     flex-direction: row;
 }
 .item2 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item2 p{
+    font-size: 22px;
+    text-align: center;
+}
+.item2:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item3{
     grid-area: item-3;
@@ -246,9 +264,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item3 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item3 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item3:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item4{
     grid-area: item-4;
@@ -257,9 +284,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item4 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item4 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item4:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item5{
     grid-area: item-5;
@@ -268,9 +304,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item5 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item5 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item5:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item6{
     grid-area: item-6;
@@ -279,9 +324,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item6 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item6 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item6:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item7{
     grid-area: item-7;
@@ -290,9 +344,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item7 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item7 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item7:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item8{
     grid-area: item-8;
@@ -301,9 +364,18 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item8 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item8 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item8:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
 }
 .item9{
     grid-area: item-9;
@@ -312,7 +384,69 @@ footer div h6{
     align-items: center;
     flex-direction: row;
 }
+.item9 p{
+    font-size: 22px;
+    text-align: center;
+}
 .item9 div img{
-    width: 100px;
+    width: 125px;
     height: 100px;
+}
+.item9:hover{
+    transform:skew(2deg) ;
+    background-color: rgb(206, 165, 116);
+    transition-duration: 1s;
+}
+.tabla{
+    padding: 10px;
+    margin-left: 250px ;
+}
+.tabla table{
+    font-size: 20px;
+    border: 2px solid black;
+    width: 800px;
+}
+thead, th{
+    border: 2px solid black;
+}
+tbody, tr, td{
+    border: 1px solid black;
+    text-align: center;
+}
+tr td:hover{
+    background-color: rgb(206, 165, 116);
+    transform: scale(1.01);
+    transition-duration: 1s;
+}
+.sect-product{
+    margin: 20px;
+}
+.sect-product div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sect-product div h4{
+    font-size: 30px;
+    margin: 20px;
+}
+.sect-product div p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    animation: scale-infinite;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: blanchedalmond;
+}
+@keyframes scale-infinite {
+    0%{transform: scale(1.1);}
+    20%{transform: scale(1.2);}
+    40%{transform: scale(1.3);}
+    60%{transform: scale(1.2);}
+    80%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+    
 }
