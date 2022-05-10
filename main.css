@@ -212,6 +212,7 @@ footer div h6{
     ;
     grid-gap: 5px;
     box-sizing: border-box;
+    margin: 20px;
 }
 .item1{
     grid-area: item-1;
@@ -230,7 +231,7 @@ footer div h6{
 }
 .item1:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item2{
@@ -250,7 +251,7 @@ footer div h6{
 }
 .item2:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item3{
@@ -270,7 +271,7 @@ footer div h6{
 }
 .item3:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item4{
@@ -290,7 +291,7 @@ footer div h6{
 }
 .item4:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item5{
@@ -307,10 +308,11 @@ footer div h6{
 .item5 div img{
     width: 125px;
     height: 100px;
+    margin: 5px;
 }
 .item5:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item6{
@@ -327,10 +329,11 @@ footer div h6{
 .item6 div img{
     width: 125px;
     height: 100px;
+    margin: 5px;
 }
 .item6:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item7{
@@ -347,10 +350,11 @@ footer div h6{
 .item7 div img{
     width: 125px;
     height: 100px;
+    margin: 5px;
 }
 .item7:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item8{
@@ -367,10 +371,11 @@ footer div h6{
 .item8 div img{
     width: 125px;
     height: 100px;
+    margin: 5px;
 }
 .item8:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .item9{
@@ -387,13 +392,15 @@ footer div h6{
 .item9 div img{
     width: 125px;
     height: 100px;
+    margin: 5px;
 }
 .item9:hover{
     transform:skew(2deg) ;
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(188, 209, 189);
     transition-duration: 1s;
 }
 .tabla{
+    margin-bottom: 20px;
     padding: 10px;
     margin-left: 250px ;
 }
@@ -410,7 +417,7 @@ tbody, tr, td{
     text-align: center;
 }
 tr td:hover{
-    background-color: rgb(206, 165, 116);
+    background-color: rgb(130, 197, 134);
     transform: scale(1.01);
     transition-duration: 1s;
 }
@@ -426,16 +433,31 @@ tr td:hover{
 .sect-product div h4{
     font-size: 30px;
     margin: 20px;
+    animation: run-infinite;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
-.sect-product div p{
-    margin: 0px;
+@keyframes run-infinite {
+    0% {
+    transform: translateX(-1000px) scale(0.7); opacity: 0;}
+    1% {opacity: 1;}
+    50% {transform: translateX(0) scale(0.7);}
+    65% {transform: scale(2);}
+}
+.sect-product div div p{
+    margin: 5px;
     padding: 0px;
     font-size: 20px;
-    animation: scale-infinite;
+}
+
+
+
+
+/*     animation: scale-infinite;
     animation-timing-function: ease;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-color: blanchedalmond;
 }
 @keyframes scale-infinite {
     0%{transform: scale(1.1);}
@@ -444,5 +466,4 @@ tr td:hover{
     60%{transform: scale(1.2);}
     80%{transform: scale(1.1);}
     100%{transform: scale(1);}
-    
-}
+     */
