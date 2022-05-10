@@ -50,10 +50,9 @@ header div img{
     grid-template-columns: auto ;
     grid-template-rows: auto;
     grid-template-areas:
-    "article"
-    "section"
-    "section1"
-    "aside"
+    "article article"
+    "section aside"
+    "section1 aside"
     ;
 }
 .sect{
@@ -95,9 +94,9 @@ header div img{
     font-size: 20px;
     padding: 20px;
 }
-.img-g{
+/* .img-g{
     display: none;
-} 
+}  */
 .sect-t{
     display: flex;
     flex-direction: column;
@@ -213,9 +212,6 @@ footer div h6{
     ;
     grid-gap: 5px;
     box-sizing: border-box;
-}
-.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9{
-    border: 1px dashed red;
 }
 .item1{
     grid-area: item-1;
