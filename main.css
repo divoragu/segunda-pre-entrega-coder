@@ -513,3 +513,27 @@ tr td:hover{
 .sector-help p a:hover{
     background-color: rgb(195, 195, 230);
 }
+/* responsive en aboutme - helpme - conctact */
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header div h1{
+        padding-top: 5px;
+        font-size: 20px;
+        
+    }
+    .nav-menu ul li a{
+        font-size: 12px;
+        padding: 2px;
+    }
+    footer div nav ul{
+        justify-content: space-around;
+        font-size: 12px;
+    }
+    footer div nav ul li a{
+        justify-content: center;
+    }
+}
